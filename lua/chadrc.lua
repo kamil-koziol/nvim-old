@@ -6,6 +6,9 @@ local M = {}
 
 M.ui = {
   theme = "catppuccin",
+  tabufline = {
+    enabled=false;
+  }
 }
 
 return M
