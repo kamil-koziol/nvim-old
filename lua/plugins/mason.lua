@@ -11,9 +11,10 @@ return {
       "html-lsp",
       "typescript-language-server",
       "deno",
-      "prettier",
+      "prettierd",
       "tailwindcss-language-server",
       "rustywind",
+      "eslint_d",
 
       -- c/cpp stuff
       "clangd",

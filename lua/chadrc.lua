@@ -5,10 +5,10 @@
 local M = {}
 
 M.ui = {
-  theme = "catppuccin",
+  theme = "monochrome",
   tabufline = {
-    enabled=false;
-  }
+    enabled = false,
+  },
 }
 
 return M
