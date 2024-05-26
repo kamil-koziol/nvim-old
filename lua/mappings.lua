@@ -1,6 +1,6 @@
 require "nvchad.mappings"
 
--- add yours here
+-- Enable mappings
 
 local map = vim.keymap.set
 local cmp = require "cmp"
@@ -19,4 +19,10 @@ map("v", "J", ":m '>+1<CR>gv=gv", { desc = "Move selected down" })
 map("v", "K", ":m '>-2<CR>gv=gv", { desc = "Move selected up" })
 
 map("i", "<C-k>", vim.lsp.buf.signature_help)
-map("n", "<C-space>", cmp.mapping.complete())
+map("n", "<C-space>", cmp.mapping.complete)
+
+-- Disable mappings
+local nomap = vim.keymap.del
+
+nomap("n", "<Tab>")
+
